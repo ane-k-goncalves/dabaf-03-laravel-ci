@@ -10,6 +10,6 @@ class TestThree extends TestCase
 
     public function IsString(): void
     {
-        $this->assertIsString("null");
+        $this->assertIsString("string");
     }
 }
